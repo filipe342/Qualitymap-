@@ -1,0 +1,21 @@
+{
+  "name": "desafio-qualitymap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:open": "cypress open",
+    "test:run": "cypress run",
+    "test:run:chrome": "cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.1"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1",
+    "faker": "^6.6.6"
+  }
+}
